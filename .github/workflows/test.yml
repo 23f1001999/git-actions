@@ -1,0 +1,11 @@
+name: Email Step Example
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    steps:
+      - name: 23f1001999@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
